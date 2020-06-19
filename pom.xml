@@ -9,7 +9,7 @@
         <version>2.2.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.alexandre_huynh</groupId>
+    <groupId>com.fdorval</groupId>
     <artifactId>spoilgot</artifactId>
     <version>alexandre_huynh</version>
     <packaging>war</packaging>
