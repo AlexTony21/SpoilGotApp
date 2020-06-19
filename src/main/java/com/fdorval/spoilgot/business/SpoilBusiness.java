@@ -118,7 +118,12 @@ public class SpoilBusiness {
 
         //cause de la mort
         if (deadInSeason) {
-            result.setCauseOfDeath("killed by " + findCharacteByID(gotCharacterBack.getKilledby()).getName());
+            if(gotCharacterBack.getKilledby() !=null){
+                result.setCauseOfDeath("killed by " + findCharacteByID(gotCharacterBack.getKilledby()).getName());
+            }
+            else{
+                result.setCauseOfDeath("Harakiri oupsi");
+            }
         }
         return result;
 
